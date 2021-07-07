@@ -1,0 +1,38 @@
+.topnav {
+    overflow: hidden;
+    background-color: rgb(197, 118, 45);
+    height: 50px;
+    margin-top: 50px;
+}
+
+.topnav a{
+    float: right;
+    color: white;
+    text-align: center;
+    padding: 15px 15px;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.topnav a:hover {
+    background-color: bisque;
+    color: rgb(197, 118, 45);
+}
+
+.topnav a.active{
+    background-color:blue;
+    color:burlywood;
+}
+
+.logo{
+    width:100px;
+    height:50px;
+    float:left;
+}
+
+.icono{
+    width:100px;
+    height:50px;
+    float:left;
+    font-size:30px;
+}
